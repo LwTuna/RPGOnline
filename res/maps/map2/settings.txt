@@ -1,0 +1,1 @@
+{"width":20,"name":"map2","height":10}

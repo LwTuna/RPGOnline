@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MMORPG Javalin & HTML/Javascript/Typescript</title>
+  <link rel=stylesheet type="text/css" href="style.css">
+</head>
+<body>
+    <link rel=stylesheet type="text/css" href="style.css">
+
+    <link rel=stylesheet type="text/css" href="js/lib/bootstrap-4.3.1-dist/css/bootstrap.css">   
+    <script type="text/javascript" src="js/lib/jquery-3.4.1.js"></script> <!-- Erst Bootstrap.js, JQuery und dann popper.js -->
+    <script type="text/javascript" src="js/lib/bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script> <!-- im bundler ist popper mit drin -->
+    
+  
+    
+	 <div class="container content">
+	 </div>
+   
+   <script>
+	 $( document ).ready(function() {
+			$(".container.content").load("testContent.html");	
+		});
+   </script>
+   
+    
+	 
+
+
+</body>
+</html>
